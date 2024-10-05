@@ -6,11 +6,11 @@ import { Theme } from "@radix-ui/themes";
 import { ProposalsContextProvider } from "./context/proposalsContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-    <StrictMode>
-        <Theme>
-            <ProposalsContextProvider>
-                <App />
-            </ProposalsContextProvider>
-        </Theme>
-    </StrictMode>
+  <StrictMode>
+    <Theme>
+      <ProposalsContextProvider>
+        <App />
+      </ProposalsContextProvider>
+    </Theme>
+  </StrictMode>
 );
